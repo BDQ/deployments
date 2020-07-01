@@ -27,3 +27,6 @@ inputs:
   ref:
     required: false
     description: The git ref to use for the deploy, defaults to github.ref
+  env:
+    required: false
+    description: Identifier for environment to deploy to (e.g. staging, prod, master)
