@@ -30,3 +30,12 @@ inputs:
   env:
     required: false
     description: Identifier for environment to deploy to (e.g. staging, prod, master)
+  env_url:
+    required: false
+    description: The URL to access the environment
+  status:
+    required: false
+    description: The status of the build
+  deployment_id:
+    required: false
+    description: Id for existing deployment (used when updating)
